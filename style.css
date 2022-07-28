@@ -1,0 +1,100 @@
+.first {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    background: #EEEFF1;
+}
+
+.central {
+    position: absolute;
+    width: 84px;
+    height: 16px;
+    left: 399px;
+    top: 79px;
+}
+
+.avtor {
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 525px;
+    top: 79px;
+}
+
+.works {
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 667px;
+    top: 79px;
+}
+
+.procces {
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 783px;
+    top: 79px;
+}
+
+.contacts {
+    position: absolute;
+    width: 99px;
+    height: 16px;
+    left: 911px;
+    top: 79px;
+}
+
+.header {
+    position: absolute;
+    width: 541px;
+    height: 45px;
+    left: 399px;
+    top: 257px;
+
+}
+
+.text {
+    position: absolute;
+    width: 540px;
+    height: 67px;
+    left: 400px;
+    top: 362px;
+}
+
+.but {
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    left: 399px;
+    top: 494px;
+    background: #34547A;
+    color: white;
+}
+
+.two {
+    position: absolute;
+    width: 540px;
+    height: 147px;
+    left: 690px;
+    top: 812px;
+}
+
+.header_me {
+    text-align: center;
+}
+
+.text_me {
+    margin-top: 50px;
+}
+
+.three {
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    left: 0px;
+    top: 1059px;
+    background: #34547A;
+}

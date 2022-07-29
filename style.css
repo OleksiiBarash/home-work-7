@@ -1,100 +1,78 @@
-.first {
-    position: absolute;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(.//Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(.//Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
     width: 1920px;
     height: 700px;
-    left: 0px;
-    top: 0px;
-    background: #EEEFF1;
+    background-color: #EEEFF1;
 }
 
-.central {
-    position: absolute;
-    width: 84px;
-    height: 16px;
-    left: 399px;
-    top: 79px;
+.header-menu {
+    margin-left: 399px;
+    padding-top: 79px;
 }
 
-.avtor {
-    position: absolute;
-    width: 100px;
-    height: 16px;
-    left: 525px;
-    top: 79px;
+.one {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-style: normal;
+    color: #34547A;
 }
 
-.works {
-    position: absolute;
-    width: 74px;
-    height: 16px;
-    left: 667px;
-    top: 79px;
+.header-menu-nav-list-item {
+    margin-right: 42px;
+    color: #000000;
 }
 
-.procces {
-    position: absolute;
-    width: 86px;
-    height: 16px;
-    left: 783px;
-    top: 79px;
-}
-
-.contacts {
-    position: absolute;
-    width: 99px;
-    height: 16px;
-    left: 911px;
-    top: 79px;
-}
-
-.header {
-    position: absolute;
+.header-one {
     width: 541px;
     height: 45px;
-    left: 399px;
-    top: 257px;
-
+    margin-left: 399px;
+    margin-top: 162px;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 48px;
 }
 
 .text {
-    position: absolute;
     width: 540px;
     height: 67px;
-    left: 400px;
-    top: 362px;
+    margin-left: 399px;
+    margin-top: 60px;
 }
 
-.but {
-    position: absolute;
+.link {
+    border-width: 3px;
+    border-style: groove;
+    border-color: #34547A;
+    background-color: #34547A;
     width: 225px;
     height: 65px;
-    left: 399px;
-    top: 494px;
-    background: #34547A;
-    color: white;
-}
-
-.two {
-    position: absolute;
-    width: 540px;
-    height: 147px;
-    left: 690px;
-    top: 812px;
-}
-
-.header_me {
+    margin-left: 399px;
+    margin-top: 65px;
     text-align: center;
 }
 
-.text_me {
-    margin-top: 50px;
-}
-
-.three {
-    position: absolute;
-    width: 1920px;
-    height: 250px;
-    left: 0px;
-    top: 1059px;
-    background: #34547A;
+.link-text {
+    color: white;
 }

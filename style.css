@@ -1,78 +1,101 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
 }
-
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url(.//Roboto/Roboto-Regular.ttf);
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Medium';
-    src: url(.//Roboto/Roboto-Medium.ttf);
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Medium.ttf);
     font-weight: 500;
     font-style: normal;
 }
 
 body {
-    font-family: 'Roboto-Regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.total {
+    padding-left: 400px;
+}
+
 header {
     width: 1920px;
-    height: 700px;
     background-color: #EEEFF1;
-}
-
-.header-menu {
-    margin-left: 399px;
     padding-top: 79px;
+    padding-bottom: 141px;
 }
 
-.one {
-    font-family: 'Roboto-Medium', sans-serif;
-    font-style: normal;
-    color: #34547A;
+.header-nav {
+    margin-bottom: 162px;
 }
 
-.header-menu-nav-list-item {
+.header-nav-list-item {
     margin-right: 42px;
+}
+
+.header-nav-list-item-link {
     color: #000000;
 }
 
 .header-one {
     width: 541px;
-    height: 45px;
-    margin-left: 399px;
-    margin-top: 162px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
     font-size: 48px;
+    margin-bottom: 60px;
 }
 
 .text {
     width: 540px;
-    height: 67px;
-    margin-left: 399px;
-    margin-top: 60px;
+    line-height: 26px;
 }
 
-.link {
-    border-width: 3px;
-    border-style: groove;
-    border-color: #34547A;
+.block-two {
+    margin-bottom: 65px;
+}
+
+.button-link {
+    display:inline-block;
+    color: white;
     background-color: #34547A;
-    width: 225px;
-    height: 65px;
-    margin-left: 399px;
-    margin-top: 65px;
+    text-align: center;
+    padding: 20px;
+}
+
+.about_me {
+    padding-top: 112px;
+}
+
+.header_me {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 32px;
+    margin-left: 760px;
+    width: 403px;
     text-align: center;
 }
 
-.link-text {
+.text_me {
+    width: 540px;
+    margin-left: 690px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 100px;
+}
+
+.container {
+    background-color: #34547A;
+    width: 1920px;
     color: white;
+}
+
+.container-list {
+    text-align: center;
 }

@@ -46,7 +46,7 @@ header {
     color: rgb(0, 0, 0);
 }
 
-.click:hover {
+.pick:hover {
     color: red;
     font-weight: 500;
 }
@@ -55,6 +55,14 @@ header {
     width: 541px;
     font-size: 48px;
     margin-bottom: 60px;
+}
+
+.block-container {
+    padding: 100px 0;
+}
+
+.texting {
+    margin-bottom: 10px;
 }
 
 .text {
@@ -83,10 +91,13 @@ header {
 
 .header_me {
     margin-bottom: 50px;
+    font-size: 32px;
 }
 
 .text_me {
     margin-bottom: 100px;
+    line-height: 26px;
+    color: #727272;
 }
 
 .block {
@@ -95,7 +106,7 @@ header {
 
 .project {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .clearfix {
@@ -104,22 +115,21 @@ header {
 
 .info {
     color: white;
+    float: left;
+    margin-top: 3px;
 }
 
 .block-list {
     width: 150px;
     float: left;
     margin-right: 15px;
-    padding: 70px;
 }
 
 .image {
-    width: 1000px;
-}
-
-.picture {
+    width: 100%;
     margin-bottom: 100px;
 }
+
 
 .footer {
     line-height: 30px;
@@ -136,4 +146,12 @@ header {
 
 .big-font {
     font-weight: 500;
+}
+
+.footer {
+    background-color: #34547A;
+}
+
+.color {
+    color: white;
 }

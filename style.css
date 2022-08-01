@@ -22,15 +22,15 @@ body {
     font-style: normal;
 }
 
-.total {
-    padding-left: 400px;
-}
-
 header {
-    width: 1920px;
     background-color: #EEEFF1;
     padding-top: 79px;
     padding-bottom: 141px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -39,15 +39,20 @@ header {
 
 .header-nav-list-item {
     margin-right: 42px;
+    display:inline-block;
 }
 
-.header-nav-list-item-link {
-    color: #000000;
+.pick {
+    color: rgb(0, 0, 0);
+}
+
+.click:hover {
+    color: red;
+    font-weight: 500;
 }
 
 .header-one {
     width: 541px;
-    font-weight: 500;
     font-size: 48px;
     margin-bottom: 60px;
 }
@@ -70,32 +75,65 @@ header {
 }
 
 .about_me {
+    text-align: center;
     padding-top: 112px;
+    width: 500px;
+    margin: auto;
 }
 
 .header_me {
     margin-bottom: 50px;
-    font-weight: 500;
-    font-size: 32px;
-    margin-left: 760px;
-    width: 403px;
-    text-align: center;
 }
 
 .text_me {
-    width: 540px;
-    margin-left: 690px;
-    text-align: center;
-    line-height: 26px;
     margin-bottom: 100px;
 }
 
-.container {
+.block {
     background-color: #34547A;
-    width: 1920px;
+}
+
+.project {
+    float: left;
+    margin-right: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.info {
     color: white;
 }
 
-.container-list {
-    text-align: center;
+.block-list {
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+    padding: 70px;
+}
+
+.image {
+    width: 1000px;
+}
+
+.picture {
+    margin-bottom: 100px;
+}
+
+.footer {
+    line-height: 30px;
+    padding: 50px;
+}
+
+.header-size {
+    font-size: 21px;
+}
+
+.minimal {
+    font-size: 13px;
+}
+
+.big-font {
+    font-weight: 500;
 }
